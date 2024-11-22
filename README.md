@@ -1,0 +1,53 @@
+# [Crafting Interpreters](https://craftinginterpreters.com/)
+
+## Repo Layout
+
+```
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── craftinginterpreters/
+│                   └── lox/
+│                       └── <source-files>
+│
+├── tools/
+│   └── <tool-jars>
+│
+└── Makefile
+```
+
+## Makefile
+
+### Format
+
+```
+make format
+```
+
+
+### Compile
+
+```
+make 
+```
+
+### Run Interactive
+
+```
+make run
+```
+
+### Run File
+
+```
+make run FILE=<path/to/file>
+```
+
+### Clean Up
+
+```
+make clean
+```
+
+
