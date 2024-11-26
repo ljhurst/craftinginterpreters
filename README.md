@@ -8,11 +8,16 @@
 │       └── java/
 │           └── com/
 │               └── craftinginterpreters/
-│                   └── lox/
-│                       └── <source-files>
+│                   ├── lox/
+│                   │   └── <source-files>
+│                   └── tool/
+│                       └── <source-file-helpers>
 │
 ├── tools/
 │   └── <tool-jars>
+│
+├── scripts/
+│   └── test.lox
 │
 └── Makefile
 ```
