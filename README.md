@@ -3,18 +3,19 @@
 ## Repo Layout
 
 ```
-├── src/
-│   └── main/
-│       └── java/
-│           └── com/
-│               └── craftinginterpreters/
-│                   ├── lox/
-│                   │   └── <source-files>
-│                   └── tool/
-│                       └── <source-file-helpers>
-│
-├── tools/
-│   └── <tool-jars>
+├── jlox/
+│   ├── src/
+│   │   └── main/
+│   │       └── java/
+│   │           └── com/
+│   │               └── craftinginterpreters/
+│   │                   ├── lox/
+│   │                   │   └── <source-files>
+│   │                   └── tool/
+│   │                       └── <source-file-helpers>
+│   │
+│   └── tools/
+│       └── <tool-jars>
 │
 ├── scripts/
 │   └── test.lox
@@ -54,5 +55,3 @@ make run FILE=<path/to/file>
 ```
 make clean
 ```
-
-
