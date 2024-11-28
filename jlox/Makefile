@@ -1,7 +1,7 @@
 # Directory structure
-SRC_DIR = jlox/src/main/java
-OUT_DIR = jlox/target/classes
-FORMATTER_JAR = jlox/tools/google-java-format-1.25.0-all-deps.jar
+SRC_DIR = src/main/java
+OUT_DIR = target/classes
+FORMATTER_JAR = tools/google-java-format-1.25.0-all-deps.jar
 
 # Java compiler and flags
 JAVAC = javac
