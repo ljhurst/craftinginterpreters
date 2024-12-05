@@ -31,4 +31,4 @@ format-check:
 	clang-format --dry-run -Werror $(ALL_SOURCE_FILES)
 
 run: $(BUILD_DIR)/$(TARGET)
-	./$(BUILD_DIR)/$(TARGET)
+	./$(BUILD_DIR)/$(TARGET) $(if $(FILE),$(FILE),)
